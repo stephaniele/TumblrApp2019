@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC2A4811235C088F006B22FD /* PhotosCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2A4810235C088F006B22FD /* PhotosCell.swift */; };
 		EC4086CF235BDEC100D62AF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4086CE235BDEC100D62AF6 /* AppDelegate.swift */; };
-		EC4086D1235BDEC100D62AF6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4086D0235BDEC100D62AF6 /* ViewController.swift */; };
 		EC4086D4235BDEC100D62AF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC4086D2235BDEC100D62AF6 /* Main.storyboard */; };
 		EC4086D6235BDEC200D62AF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC4086D5235BDEC200D62AF6 /* Assets.xcassets */; };
 		EC4086D9235BDEC200D62AF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC4086D7235BDEC200D62AF6 /* LaunchScreen.storyboard */; };
 		EC4086E4235BDEC200D62AF6 /* TumblrApp2019Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4086E3235BDEC200D62AF6 /* TumblrApp2019Tests.swift */; };
 		EC4086EF235BDEC200D62AF6 /* TumblrApp2019UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4086EE235BDEC200D62AF6 /* TumblrApp2019UITests.swift */; };
+		EC4086FD235BDEDE00D62AF6 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4086FC235BDEDE00D62AF6 /* PhotosViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +35,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EC2A4810235C088F006B22FD /* PhotosCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCell.swift; sourceTree = "<group>"; };
 		EC4086CB235BDEC100D62AF6 /* TumblrApp2019.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TumblrApp2019.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC4086CE235BDEC100D62AF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EC4086D0235BDEC100D62AF6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EC4086D3235BDEC100D62AF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EC4086D5235BDEC200D62AF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC4086D8235BDEC200D62AF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,7 @@
 		EC4086EA235BDEC200D62AF6 /* TumblrApp2019UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TumblrApp2019UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC4086EE235BDEC200D62AF6 /* TumblrApp2019UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TumblrApp2019UITests.swift; sourceTree = "<group>"; };
 		EC4086F0235BDEC200D62AF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC4086FC235BDEDE00D62AF6 /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +100,12 @@
 			isa = PBXGroup;
 			children = (
 				EC4086CE235BDEC100D62AF6 /* AppDelegate.swift */,
-				EC4086D0235BDEC100D62AF6 /* ViewController.swift */,
 				EC4086D2235BDEC100D62AF6 /* Main.storyboard */,
+				EC2A4810235C088F006B22FD /* PhotosCell.swift */,
 				EC4086D5235BDEC200D62AF6 /* Assets.xcassets */,
 				EC4086D7235BDEC200D62AF6 /* LaunchScreen.storyboard */,
 				EC4086DA235BDEC200D62AF6 /* Info.plist */,
+				EC4086FC235BDEDE00D62AF6 /* PhotosViewController.swift */,
 			);
 			path = TumblrApp2019;
 			sourceTree = "<group>";
@@ -256,8 +259,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC4086D1235BDEC100D62AF6 /* ViewController.swift in Sources */,
+				EC4086FD235BDEDE00D62AF6 /* PhotosViewController.swift in Sources */,
 				EC4086CF235BDEC100D62AF6 /* AppDelegate.swift in Sources */,
+				EC2A4811235C088F006B22FD /* PhotosCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
