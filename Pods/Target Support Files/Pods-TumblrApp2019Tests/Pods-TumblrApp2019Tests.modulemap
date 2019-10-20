@@ -1,0 +1,6 @@
+framework module Pods_TumblrApp2019Tests {
+  umbrella header "Pods-TumblrApp2019Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
